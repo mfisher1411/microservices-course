@@ -17,7 +17,7 @@ import (
 const (
 	baseUrl       = "localhost:8081"
 	createPostfix = "/notes"
-	getPostfix    = "/notes/%id"
+	getPostfix    = "/notes/%d"
 )
 
 type NoteInfo struct {
