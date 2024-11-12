@@ -1,4 +1,4 @@
-module microservices-course/week_1/http
+module github.com/mfisher1411/microservices-course/week_1/http
 
 go 1.23.2
 
