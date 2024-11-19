@@ -1,15 +1,6 @@
 .idea
 /week_1/grpc/bin/
 /week_2/postgres/bin/
-/week_2/config/bin/
-/week_2/grpc/api/
-/week_2/grpc/bin/main
-/week_2/grpc/cmd/
-/week_2/grpc/pkg/
-/week_2/grpc/Dockerfile
-/week_2/grpc/go.mod
-/week_2/grpc/go.sum
-/week_2/grpc/service_linux
 /week_3/bin/
 /week_5/bin/
 /week_5/vendor.protogen/
