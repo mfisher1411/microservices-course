@@ -28,12 +28,6 @@ copy-to-server:
 
 
 docker-build-and-push:
-	docker buildx build --no-cache --platform linux/amd64 -t cr.selcloud.ru/mfisher1411/test-server:v0.0.1 .
-	docker login -u token -p CRgAAAAA9KkxIYT3fV-iKmOu549KbKLxILGUU9cC cr.selcloud.ru/mfisher1411
-	docker push cr.selcloud.ru/mfisher1411/test-server:v0.0.1
-
-
-# docker-build-and-push:
-# 	docker buildx build --no-cache --platform linux/amd64 -t <REGESTRY>/test-server:v0.0.1 .
-# 	docker login -u <USERNAME> -p <PASSWORD> <REGESTRY>
-# 	docker push <REGESTRY>/test-server:v0.0.1
+	docker buildx build --no-cache --platform linux/amd64 -t <REGESTRY>/test-server:v0.0.1 .
+	docker login -u <USERNAME> -p <PASSWORD> <REGESTRY>
+	docker push <REGESTRY>/test-server:v0.0.1
