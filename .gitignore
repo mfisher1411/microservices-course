@@ -1,7 +1,14 @@
 .idea
+.vscode
 /week_1/grpc/bin/
 /week_2/postgres/bin/
-/week_2/postgres/
+/week_2/postgres/bin/
+/week_2/postgres/.env
+/week_2/postgres/cmd/
+/week_2/postgres/migrations/
+/week_2/postgres/go.mod
+/week_2/postgres/go.sum
+/week_2/postgres/Makefile
 /week_3/bin/
 /week_5/bin/
 /week_5/vendor.protogen/
